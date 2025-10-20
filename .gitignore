@@ -142,3 +142,5 @@
 
 # Ignore files from Azure Functions
 **/local.settings.json
+
+**/.db
