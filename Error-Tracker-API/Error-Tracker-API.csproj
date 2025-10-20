@@ -8,12 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="v1\Service\Implementation\" />
-    <Folder Include="v1\Service\Interface\" />
-    <Folder Include="v1\Request\" />
-    <Folder Include="v1\Entity\" />
-    <Folder Include="v1\Dto\" />
-    <Folder Include="v1\Controller\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.10" />
   </ItemGroup>
 
 </Project>
