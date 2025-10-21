@@ -13,8 +13,9 @@ Designed to serve as a foundation for a **lightweight observability service** wi
 4. [Data Flow](#data-flow)
 5. [Project Setup](#project-setup)
 6. [Usage Examples](#usage-examples)
-7. [Future Roadmap](#future-roadmap)
-8. [License](#license)
+7. [Automated CI/CD](#automated-cicd)
+8. [Future Roadmap](#future-roadmap)
+9. [License](#license)
 
 ---
 
@@ -88,6 +89,18 @@ Body:
   "severity": "High"
 }
 ```
+
+---
+
+## Automated CI/CD
+
+This project includes a Continuous Integration and Continuous Deployment (CI/CD) workflow configured with GitHub Actions.
+
+- Automatic build on every push to the main branch
+- Automated tests to validate code integrity
+- Auto-deployment to a Linux server when all tests pass successfully
+
+You can check the workflow file at: .github/workflows/Error Traker CI-CD.yml
 
 ---
 
